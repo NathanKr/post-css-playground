@@ -1,0 +1,25 @@
+{
+  "name": "post-css-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "postcss styles.css -d dist",
+    "build-css-watch": "postcss styles.css -d dist -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NathanKr/post-css-playground.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NathanKr/post-css-playground/issues"
+  },
+  "homepage": "https://github.com/NathanKr/post-css-playground#readme",
+  "devDependencies": {
+    "postcss": "^8.4.32",
+    "postcss-cli": "^11.0.0"
+  }
+}
