@@ -1,7 +1,9 @@
+/* this is a comment that cssnano will remove */
 body div{
     color: red;
 }
 
+/* this is a comment that cssnano will remove */
 body p{
     color: orange;
 }
