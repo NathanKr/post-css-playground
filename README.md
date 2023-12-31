@@ -1,5 +1,5 @@
-<h2>Motivation</h2>
-Experiment with postcss and plugin using nanocss 
+<h2>Introduction</h2>
+Experiment with postcss using the plugin nanocss and postcss.config.js. postcss-cli invokes postcss via the package.json scripts 
 
 
 <h2>Installation</h2>
