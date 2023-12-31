@@ -1,6 +1,8 @@
+const cssnano = require('cssnano');
+
 module.exports = {
     plugins: [
-        require('cssnano')({
+        cssnano({
             preset: 'default',
         }),
     ],
