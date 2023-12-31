@@ -25,6 +25,29 @@ Run index.html in the browser, and changing styles.css in the root directory wil
 <li>Use postcss-preset-env here to convert CSS nesting to CSS format known to most browsers (e.g. CSS nesting is supported in chrom 120; check <a href='https://developer.mozilla.org/en-US/docs/Web/CSS/Nesting_selector'>here</a>)</li>
 </ul>
 
+<h2>input \ output css</h2>
+<h3>input css (styles.css)</h3>
+
+```css
+/* this is a comment that cssnano will remove */
+body div {
+  color: red;
+}
+
+/* this is a comment that cssnano will remove */
+body {
+  & p {
+    color: blue;
+  }
+}
+```
+
+<h3>output css (dist)</h3>
+minified and trnaslate css nesting 
+
+```css
+body div{color:red}body p{color:blue}
+```
 
 <h2>More info</h2>
 https://nathankrasney.com/posts/what-is-postcss
